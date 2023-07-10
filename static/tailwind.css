@@ -1,0 +1,27 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+  body {
+    background-color: #333333;
+    color: #e5e5e5;
+  }
+p{
+    font-family: cursive;
+}
+  nav{
+    
+    background-color: rgba(218, 12, 132, 0.986);
+    width:max-content;
+    color:whitesmoke;
+    
+   
+  }
+  a{
+    color:antiquewhite;
+  }
+  a:hover{
+    color:aqua;
+    font-size: larger;
+
+  }
