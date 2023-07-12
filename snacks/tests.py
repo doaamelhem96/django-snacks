@@ -20,7 +20,7 @@ class Test_About(SimpleTestCase):
         url=reverse('about')
         response=self.client.get(url)
         self.assertEqual(response.status_code,200)
-    def Test_Template(self):
+    def test_Template(self):
         url=reverse('about')
         response=self.client.get(url)
         self.assertTemplateUsed(response,'about.html')
